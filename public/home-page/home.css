@@ -1,0 +1,196 @@
+
+/*SECTION ONE HEADER */
+.home-page-header{
+  width: 100%;
+  height: 125px;
+  border: red solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.home-page-logo-container{
+  width: 200px;
+  height: 125px;
+  background-image: url(home-page-pics/logo.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: blue solid;
+}
+
+.home-page-header-info-container{
+height: 125px;
+width: 600px;
+border: green solid;
+display: flex;
+flex-direction: column;
+}
+
+.home-page-circle-links-sign-in-container{
+  width: 100%;
+  height: 33vh;
+  border: purple solid;
+  display: flex;
+  justify-content: flex-end;
+}
+/*circle links, sign in, and search*/
+
+.home-page-twitter-contianer{
+  height: 41px;
+  width: 41px;
+  border: orange solid;
+}
+.home-page-facebook-contianer{
+  height: 41px;
+  width: 41px;
+  border: orange solid;
+}
+.home-page-youtube-contianer{
+  height: 41px;
+  width: 41px;
+  border: orange solid;
+}
+.home-page-pintrest-contianer{
+  height: 41px;
+  width: 41px;
+  border: orange solid;
+}
+.home-page-instagram-contianer{
+  height: 41px;
+  width: 41px;
+  border: orange solid;
+}
+.home-page-sign-in-contianer{
+  height: 41px;
+  width: 81px;
+  border: orange solid;
+}
+.home-page-search-contianer{
+  height: 41px;
+  width: 150px;
+  border: orange solid;
+}
+
+
+
+.home-page-links-container{
+  width: 100%;
+  height: 33vh;
+  border: purple solid;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/*links to pages*/
+
+.home-page-home-contianer{
+  height: 41px;
+  width: 80px;
+  border: blue solid;
+}
+.home-page-shop-by-category-and-arrow-contianer{
+  height: 41px;
+  width: 80px;
+  border: blue solid;
+}
+.home-page-shop-our-instagram-contianer{
+  height: 41px;
+  width: 80px;
+  border: blue solid;
+}
+.home-page-blog-and-arrow-contianer{
+  height: 41px;
+  width: 80px;
+  border: blue solid;
+}
+.home-page-mmm-community-contianer{
+  height: 41px;
+  width: 80px;
+  border: blue solid;
+}
+.home-page-contact-contianer{
+  height: 41px;
+  width: 80px;
+  border: blue solid;
+}
+
+
+
+.home-page-cart-and-sizing-container{
+  width: 100%;
+  height: 33vh;
+  border: purple solid;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/*cart and sizing area*/
+.home-page-sizing-info-contianer{
+  height: 41px;
+  width: 80px;
+  border: pink solid;
+}
+
+.home-page-cart-contianer{
+  height: 41px;
+  width: 80px;
+  border: pink solid;
+}
+
+
+
+
+
+
+
+
+
+
+/*SECTION TWO SLIDER*/
+.home-page-slider{
+  width: 100%;
+  height: 273px;
+  background: red;
+}
+
+
+
+
+
+
+
+/*SECTION THREE CATAGORIES*/
+.home-page-catagories{
+  height: 240px;
+  max-width: 800px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: green solid;
+  margin-top: 44px;
+}
+.home-page-new-releases{
+  width: 230px;
+  height: 240px;
+  border: blue solid;
+  background-image: url(home-page-pics/new-releases.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.home-page-shop-the-look{
+  width: 230px;
+  height: 240px;
+  border: blue solid;
+  background-image: url(home-page-pics/shop-the-look.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.home-page-double-hood{
+  width: 230px;
+  height: 240px;
+  border: blue solid;
+  background-image: url(home-page-pics/double-hood.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
