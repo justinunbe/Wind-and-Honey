@@ -1,13 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body {
+  font-family: 'Oswald', sans-serif;
+
+}
+
+
+
+.home-page-wrapper{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*FREE SHIPPING BANNER*/
+.free-shipping-banner{
+  width: 100%;
+  height: 27px;
+  color: white;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+
 
 /*SECTION ONE HEADER */
 .home-page-header{
   width: 100%;
-  height: 125px;
-  border: red solid;
+  height: 140px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  padding-right: 7px;
 }
 .home-page-logo-container{
   width: 200px;
@@ -16,13 +46,11 @@
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  border: blue solid;
 }
 
 .home-page-header-info-container{
 height: 125px;
 width: 600px;
-border: green solid;
 display: flex;
 flex-direction: column;
 }
@@ -30,7 +58,6 @@ flex-direction: column;
 .home-page-circle-links-sign-in-container{
   width: 100%;
   height: 33vh;
-  border: purple solid;
   display: flex;
   justify-content: flex-end;
 }
@@ -38,38 +65,60 @@ flex-direction: column;
 
 .home-page-twitter-contianer{
   height: 41px;
-  width: 41px;
-  border: orange solid;
+  width: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .home-page-facebook-contianer{
   height: 41px;
-  width: 41px;
-  border: orange solid;
+  width: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .home-page-youtube-contianer{
   height: 41px;
-  width: 41px;
-  border: orange solid;
+  width: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .home-page-pintrest-contianer{
   height: 41px;
-  width: 41px;
-  border: orange solid;
+  width: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .home-page-instagram-contianer{
   height: 41px;
-  width: 41px;
-  border: orange solid;
+  width: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .home-page-sign-in-contianer{
   height: 41px;
-  width: 81px;
-  border: orange solid;
+  width: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
 }
 .home-page-search-contianer{
-  height: 41px;
+  height: 40px;
   width: 150px;
-  border: orange solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#search{
+  height: 30px;
+  width: 140px;
+  border-radius: 5px;
+  border-style: none;
+  border: gray solid 1px;
 }
 
 
@@ -77,7 +126,6 @@ flex-direction: column;
 .home-page-links-container{
   width: 100%;
   height: 33vh;
-  border: purple solid;
   display: flex;
   justify-content: flex-end;
 }
@@ -86,33 +134,51 @@ flex-direction: column;
 
 .home-page-home-contianer{
   height: 41px;
-  width: 80px;
-  border: blue solid;
+  width: 50px;
+  font-size: 13.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .home-page-shop-by-category-and-arrow-contianer{
   height: 41px;
-  width: 80px;
-  border: blue solid;
+  width: 110px;
+  font-size: 13.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .home-page-shop-our-instagram-contianer{
   height: 41px;
-  width: 80px;
-  border: blue solid;
+  width: 125px;
+  font-size: 13.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .home-page-blog-and-arrow-contianer{
   height: 41px;
-  width: 80px;
-  border: blue solid;
+  width: 50px;
+  font-size: 13.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .home-page-mmm-community-contianer{
   height: 41px;
-  width: 80px;
-  border: blue solid;
+  width: 100px;
+  font-size: 13.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .home-page-contact-contianer{
   height: 41px;
-  width: 80px;
-  border: blue solid;
+  width: 60px;
+  font-size: 13.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
@@ -120,7 +186,6 @@ flex-direction: column;
 .home-page-cart-and-sizing-container{
   width: 100%;
   height: 33vh;
-  border: purple solid;
   display: flex;
   justify-content: flex-end;
 }
@@ -129,14 +194,27 @@ flex-direction: column;
 .home-page-sizing-info-contianer{
   height: 41px;
   width: 80px;
-  border: pink solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13.5px;
 }
 
 .home-page-cart-contianer{
-  height: 41px;
+  height: 33px;
   width: 80px;
-  border: pink solid;
+  border: gray solid 1px;;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 13.5px;
+  border-radius: 5px;
+  margin-top: 3px;
+  padding-right: 7px;
+  padding-left: 7px;
 }
+
 
 
 
@@ -148,10 +226,35 @@ flex-direction: column;
 
 
 /*SECTION TWO SLIDER*/
-.home-page-slider{
+.slick-slider{
   width: 100%;
   height: 273px;
-  background: red;
+
+}
+
+.slide-one{
+  height: 273px;
+  background-image: url(home-page-pics/new-releases.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.slide-two{
+  height: 273px;
+  background-image: url(home-page-pics/hey-girl-hey.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.slide-three{
+  height: 273px;
+  background-image: url(home-page-pics/free-shipping.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.slide-four{
+  height: 273px;
+  background-image: url(home-page-pics/original-double-hood.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 
@@ -163,17 +266,15 @@ flex-direction: column;
 /*SECTION THREE CATAGORIES*/
 .home-page-catagories{
   height: 240px;
-  max-width: 800px;
+  width: 800px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border: green solid;
   margin-top: 44px;
 }
 .home-page-new-releases{
   width: 230px;
   height: 240px;
-  border: blue solid;
   background-image: url(home-page-pics/new-releases.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -181,7 +282,6 @@ flex-direction: column;
 .home-page-shop-the-look{
   width: 230px;
   height: 240px;
-  border: blue solid;
   background-image: url(home-page-pics/shop-the-look.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -189,8 +289,151 @@ flex-direction: column;
 .home-page-double-hood{
   width: 230px;
   height: 240px;
-  border: blue solid;
   background-image: url(home-page-pics/double-hood.png);
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+
+
+
+/*SECTION FOUR FEATURED OUTFIT*/
+.home-page-featured-outfit{
+  height: 385px;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.home-page-this-outfit-though-container{
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.home-page-outfit-options-container{
+  height: 335px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.home-page-Lexie-Floral-Tee-contianer{
+  height: 335px;
+  width: 180px;
+}
+.home-page-Distressed-boyfriend-jeans-contianer{
+  height: 335px;
+  width: 180px;
+}
+.home-page-amber-satin-sneaker-contianer{
+  height: 335px;
+  width: 180px;
+}
+.home-page-Dusty-green-cardigan-contianer{
+  height: 335px;
+  width: 180px;
+}
+
+
+/*pics and descriptions*/
+
+.home-page-lexie-floral-tee-pic{
+  width: 100%;
+  height: 260px;
+  background-image: url(home-page-pics/lexie-floral-tee.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.home-page-lexie-floral-tee-discription{
+width: 100%;
+height: 55px;
+margin-top: 10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+}
+
+
+.home-page-Distressed-boyfriend-jeans-pic{
+  width: 100%;
+  height: 260px;
+  background-image: url(home-page-pics/distressed-boyfriend-jeans.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+
+.home-page-Distressed-boyfriend-jeans-discription{
+  width: 100%;
+  height: 55px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 15px;
+}
+
+
+.home-page-amber-satin-sneaker-pic{
+  width: 100%;
+  height: 260px;
+  background-image: url(home-page-pics/amber-satin-sneaker.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+
+.home-page-amber-satin-sneaker-discription{
+  width: 100%;
+  height: 55px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.home-page-Dusty-green-cardigan-pic{
+  width: 100%;
+  height: 260px;
+  background-image: url(home-page-pics/dusty-green-cardigan.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+
+.home-page-Dusty-green-cardigan-discription{
+  width: 100%;
+  height: 55px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+
+
+/*SECTION 5 BLOG*/
+.home-page-blog{
+  height: 630px;
+  width: 800px;
+  border: gray solid;
+}
+
+
+/*SECTION SIX FOOTER*/
+.home-page-footer{
+  width: 800px;
+  height: 400px;
+  border: blue solid;
 }
